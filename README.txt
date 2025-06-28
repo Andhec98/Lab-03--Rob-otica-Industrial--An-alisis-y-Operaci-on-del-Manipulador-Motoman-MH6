@@ -31,8 +31,6 @@ Este documento presenta un cuadro comparativo detallado de las características 
 # Manual de Operación y Simulación - Robot Motoman
 
 El robot Motoman MH6 permite definir múltiples posiciones de referencia conocidas como "Home1" y "Home2". Estas posiciones son establecidas por el usuario y suelen ser utilizadas para retornar a ubicaciones seguras o estratégicas dentro del espacio de trabajo.
-
-## 1. Procedimiento para Movimientos Manuales
 Home1: Posición segura o de reposo
 
 Se configura lejos del área de trabajo.
@@ -40,6 +38,8 @@ Se configura lejos del área de trabajo.
 Útil para inicio y finalización del ciclo, o ante situaciones de emergencia.
 
 Normalmente, todas las articulaciones están en posición neutral.
+
+![Logo del proyecto](Home 1.jpg)
 
 Home2: Posición operativa o de transición
 
