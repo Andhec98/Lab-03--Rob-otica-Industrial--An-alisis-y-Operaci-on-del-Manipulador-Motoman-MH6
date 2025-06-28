@@ -142,6 +142,7 @@ Permite programar en RAPID y simular con fidelidad exacta al comportamiento fís
 
 RoboDK es ideal para aprender y experimentar con distintas marcas de robots. RobotStudio, por su parte, es perfecto para desarrollos avanzados en entornos ABB donde la precisión y validación previa al despliegue son cruciales.
 ---
+Video: https://youtu.be/uwRJfNl4Qbc
 
 ### Referencias
 - Yaskawa Motoman Robot Manuals.
