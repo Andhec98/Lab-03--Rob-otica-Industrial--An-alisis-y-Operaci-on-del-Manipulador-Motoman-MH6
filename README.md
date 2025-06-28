@@ -39,8 +39,8 @@ Se configura lejos del área de trabajo.
 
 Normalmente, todas las articulaciones están en posición neutral.
 
-![Home1](Home 1.jpg)
-![Home1.1]()
+![Home1](Home-1.jpg)
+![Home1.1](Home.jpg)
 
 Home2: Posición operativa o de transición
 
