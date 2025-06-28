@@ -50,7 +50,7 @@ Se ubica más cerca del área de trabajo o del primer punto de proceso.
 
 Permite reducir el tiempo de ciclo y evitar movimientos innecesarios.
 
-![Home2](Home%202.jpg)
+![Home2](Home%202%20.jpg)
 ![Home2.2](Home%202%20fisico.jpg)
 
 ## 2. Procedimiento para Movimientos Manuales
