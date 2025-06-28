@@ -26,10 +26,30 @@ Este documento presenta un cuadro comparativo detallado de las características 
 - **ABB IRB 140**: Excelente opción para aplicaciones en **espacios reducidos** gracias a su tamaño compacto y alta **precisión (repetibilidad de ±0,03 mm)**. Su velocidad y consumo energético más bajos lo hacen eficiente para tareas de ensamblaje fino y aplicaciones de laboratorio.
 
 
+## 1. Configuraciones Home1 y Home2 del Motoman MH6
 
 # Manual de Operación y Simulación - Robot Motoman
 
+El robot Motoman MH6 permite definir múltiples posiciones de referencia conocidas como "Home1" y "Home2". Estas posiciones son establecidas por el usuario y suelen ser utilizadas para retornar a ubicaciones seguras o estratégicas dentro del espacio de trabajo.
+
 ## 1. Procedimiento para Movimientos Manuales
+Home1: Posición segura o de reposo
+
+Se configura lejos del área de trabajo.
+
+Útil para inicio y finalización del ciclo, o ante situaciones de emergencia.
+
+Normalmente, todas las articulaciones están en posición neutral.
+
+Home2: Posición operativa o de transición
+
+Se ubica más cerca del área de trabajo o del primer punto de proceso.
+
+Útil como punto de partida para tareas productivas.
+
+Permite reducir el tiempo de ciclo y evitar movimientos innecesarios.
+
+## 2. Procedimiento para Movimientos Manuales
 
 ### Modos de Operación
 Los robots Motoman permiten el control manual en **dos modos principales**:
@@ -53,7 +73,7 @@ Los robots Motoman permiten el control manual en **dos modos principales**:
 
 ---
 
-## 2. Niveles de Velocidad para Movimientos Manuales
+## 3. Niveles de Velocidad para Movimientos Manuales
 
 ### Niveles Disponibles
 - **Baja Velocidad (LOW):** Aproximación segura y precisa.
@@ -75,7 +95,7 @@ Los robots Motoman permiten el control manual en **dos modos principales**:
 
 ---
 
-## 3. RoboDK - Funcionalidades y Comunicación con Motoman
+## 4. RoboDK - Funcionalidades y Comunicación con Motoman
 
 ### Principales Funcionalidades
 - **Programación Offline:** Crear y simular trayectorias sin afectar la operación real.
@@ -98,6 +118,25 @@ Los robots Motoman permiten el control manual en **dos modos principales**:
 5. Ejecutar los movimientos en el robot físico.
 6. Alternativamente, RoboDK puede enviar comandos en tiempo real al robot.
 
+## 5. RoboDK - Robotstudio 
+
+RoboDK:
+
+Software multimarcas.
+
+Intuitivo y educativo.
+
+Usado para simulación, programación offline y automatización por scripts.
+
+RobotStudio:
+
+Exclusivo para robots ABB.
+
+Altamente preciso gracias al controlador virtual.
+
+Permite programar en RAPID y simular con fidelidad exacta al comportamiento físico del robot.
+
+RoboDK es ideal para aprender y experimentar con distintas marcas de robots. RobotStudio, por su parte, es perfecto para desarrollos avanzados en entornos ABB donde la precisión y validación previa al despliegue son cruciales.
 ---
 
 ### Referencias
