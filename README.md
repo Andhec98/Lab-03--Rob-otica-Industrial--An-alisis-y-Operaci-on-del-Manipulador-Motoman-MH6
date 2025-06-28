@@ -39,7 +39,8 @@ Se configura lejos del área de trabajo.
 
 Normalmente, todas las articulaciones están en posición neutral.
 
-![Logo del proyecto](/Home 1.jpg)
+![Home1](Home 1.jpg)
+![Home1.1]()
 
 Home2: Posición operativa o de transición
 
@@ -48,6 +49,9 @@ Se ubica más cerca del área de trabajo o del primer punto de proceso.
 Útil como punto de partida para tareas productivas.
 
 Permite reducir el tiempo de ciclo y evitar movimientos innecesarios.
+
+![Home2]()
+![Home2.2]()
 
 ## 2. Procedimiento para Movimientos Manuales
 
